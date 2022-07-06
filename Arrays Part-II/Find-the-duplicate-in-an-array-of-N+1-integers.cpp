@@ -9,6 +9,8 @@ using namespace std;
 // Approach - 1 - (Brute Force) Time: - O(n^2) Space: - O(1)
 class Solution
 {
+
+
 public:
     int findDuplicate(vector<int> &nums)
     {
