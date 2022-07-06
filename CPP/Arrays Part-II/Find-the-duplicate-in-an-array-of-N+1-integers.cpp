@@ -9,8 +9,6 @@ using namespace std;
 // Approach - 1 - (Brute Force) Time: - O(n^2) Space: - O(1)
 class Solution
 {
-
-
 public:
     int findDuplicate(vector<int> &nums)
     {
@@ -229,7 +227,7 @@ class Solution
 public:
     int findDuplicate(vector<int> &nums)
     {
-        //Tortoise - slow (moves one step), hare - fast (moves two steps)...
+        // Tortoise - slow (moves one step), hare - fast (moves two steps)...
         int tortoise = nums[0], hare = nums[0];
 
         do
@@ -237,7 +235,6 @@ public:
             tortoise = nums[tortoise];
             hare = nums[nums[hare]];
         } while (hare != tortoise);
-
 
         tortoise = nums[0];
         while (tortoise != hare)
