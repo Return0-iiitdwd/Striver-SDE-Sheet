@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-// Approach: - 1 (Brute Force) Time: - O(n)
+// Approach - 1 (Brute Force) Time: - O(n)
 // Recursive - Space: - O(n)
 class Solution
 {
@@ -56,7 +56,7 @@ public:
     }
 };
 
-// Approach 2 : - (Binary Exponentiation) Time: - O(logn)
+// Approach 2 - (Binary Exponentiation) Time: - O(logn)
 // Recursive - O(logn)
 class Solution
 {
