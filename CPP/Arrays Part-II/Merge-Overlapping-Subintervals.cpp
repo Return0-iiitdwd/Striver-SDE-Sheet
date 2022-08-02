@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-//Approach {sorting} Time: - O(nlogn) Space: - O(1)
+//Approach 1 {sorting} Time: - O(nlogn) Space: - O(1)
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
